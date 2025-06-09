@@ -19,38 +19,38 @@
             line-height: 1.6;
             overflow-x: hidden;
         }
-        .subtitle a {
-            color: #00d4ff;
-            text-decoration: none;
+        .hero-content .subtitle a {
+            color: #00d4ff !important;
+            text-decoration: none !important;
             position: relative;
             font-weight: 600;
             transition: all 0.3s ease;
-            background: linear-gradient(45deg, #007bff, #00d4ff);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            background: linear-gradient(45deg, #007bff, #00d4ff) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
         }
-
-        .subtitle a:hover {
-            background: linear-gradient(45deg, #00d4ff, #ffffff);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        
+        .hero-content .subtitle a:hover {
+            background: linear-gradient(45deg, #00d4ff, #ffffff) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
             transform: translateY(-1px);
         }
-
-        .subtitle a::after {
+        
+        .hero-content .subtitle a::after {
             content: '';
             position: absolute;
             bottom: -2px;
             left: 0;
-             width: 0;
+            width: 0;
             height: 2px;
             background: linear-gradient(45deg, #007bff, #00d4ff);
             transition: width 0.3s ease;
         }
 
-        .subtitle a:hover::after {
+        .hero-content .subtitle a:hover::after {
             width: 100%;
         }
 
